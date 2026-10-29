@@ -1,0 +1,6 @@
+{
+  "name": "CampusBite – Digital College Canteen Platform",
+  "description": "Live menu browsing, queue-aware prep estimations, student checkout, multi-channel payment gateway, real-time live order tracking, and Canteen Kitchen Display System (KDS).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

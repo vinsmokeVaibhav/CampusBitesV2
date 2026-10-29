@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --espresso: #1e1b18;
+    --alabaster: #fafafa;
+    --orange-primary: #d94e1f;
+    --emerald-status: #15803d;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f7f6f2;
+    color: #1e1b18;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* WCAG 2.1 AA High-Visibility Focus Outline (2px solid #D94E1F with 2px offset) */
+  *:focus-visible {
+    outline: 2px solid #d94e1f !important;
+    outline-offset: 2px !important;
+  }
+}
+
+.font-mono-token {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1efe9;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4cfc5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b1a4;
+}
